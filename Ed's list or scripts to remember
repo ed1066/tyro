@@ -1,0 +1,11 @@
+# if i want to find and list directories from within my current working directory use
+ls -p | grep "/"
+# the -p bit is indicator-style=slash (append / indicator to directories)
+#
+# or i can use
+ls -d */
+# the -d bit lists directiries and the */ lists them from only within current working directory
+#
+or i can use
+ls -ld */
+# the ld bit lists directories only from within the current working directory.
